@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-liqf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0014-tenant/tkrw-pr712-0075-0014-app/devfile-sample-liqf@sha256:10c505bade9a512023719cd58a03056edf4a934eee2c699344a3c4f814bef800
         name: my-nodejs
         ports:
         - containerPort: 3001
